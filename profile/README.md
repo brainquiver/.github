@@ -27,7 +27,7 @@ Our public datasets live on [Hugging Face](https://huggingface.co/brainquiver), 
 
 We build our own tools for the work behind the models, with many released as open source under the MIT licence:
 
-* [OKF Graph](https://github.com/brainquiver/open-knowledge-format-graph): Offline graph view of the Open Knowledge Format frontmatter and relations in MD documents present in a given directory.
+* [OKF Map](https://github.com/brainquiver/open-knowledge-format-map): Offline map view of the Open Knowledge Format frontmatter and relations in MD documents present in a given directory.
 * [Parquet Viewer](https://github.com/brainquiver/parquet-viewer): Offline single-page viewer for Parquet files and sharded datasets.
 * [Lightweight Parquet Reader](https://github.com/brainquiver/lightweight-parquet-reader): C99 reader for Parquet string columns, with libzstd as its only dependency.
 * [Cloudflare R2](https://github.com/brainquiver/cloudflare-r2): Dependency-free Python tools to list, upload and delete Cloudflare R2 objects.
