@@ -7,6 +7,9 @@ tags: [contributing, community]
 generated:
   by: human:ciprian-florin_ifrim
   at: 2026-10-01T12:35:31Z
+edited:
+  by: claude-code/opus-5.5
+  at: 2026-10-01T16:47:40Z
 ---
 
 # Brainquiver Contribution Guide
@@ -19,7 +22,7 @@ Ciprian-Florin Ifrim, [@CiprianFlorin-Ifrim](https://github.com/CiprianFlorin-If
 
 ## 2. Decisions
 
-The maintainer decides on each change in its pull request. The discussion stays in the pull request or its issue, where everybody can read it. A large change starts as an issue, so its direction is agreed before the code exists. A pull request that the maintainer declines is closed with the reason in its thread.
+The maintainer decides on each change in its pull request. The discussion of a change stays in its pull request or its issue, where everybody can read it. A question or an idea about one repository goes to that repository's Discussions, and a general one goes to the organisation's [Discussions](https://github.com/orgs/brainquiver/discussions). A repository without Discussions of its own uses the organisation's. A large change starts as an issue, so its direction is agreed before the code exists. A pull request that the maintainer declines is closed with the reason in its thread.
 
 ## 3. Change Process
 
