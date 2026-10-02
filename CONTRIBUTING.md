@@ -14,15 +14,15 @@ edited:
 
 # Brainquiver Contribution Guide
 
-Every public Brainquiver repository takes contributions through GitHub, as an issue or a pull request. This guide applies to all of them, and each repository's README adds its own build, tests and rules. Every participant follows the [code of conduct](https://github.com/brainquiver/.github/blob/main/CODE_OF_CONDUCT.md). A contribution is licensed under the repository's licence.
+Every public Brainquiver repository takes contributions through GitHub, as an issue or a pull request. This guide applies to all of them, and each repository's README adds its own build, tests and rules. Every participant follows the [code of conduct](https://github.com/brainquiver/.github/blob/main/CODE_OF_CONDUCT.md). A contribution is licensed under the repository's license.
 
 ## 1. Roles
 
-Ciprian-Florin Ifrim, [@CiprianFlorin-Ifrim](https://github.com/CiprianFlorin-Ifrim), maintains every repository. The maintainer reviews and merges each pull request, answers issues and vulnerability reports, enforces the code of conduct, and publishes releases. A contributor is anybody who opens an issue or a pull request. The admin account `eng-bq` belongs to the organisation, so Brainquiver can merge, triage and release if the maintainer cannot.
+Ciprian-Florin Ifrim, [@CiprianFlorin-Ifrim](https://github.com/CiprianFlorin-Ifrim), maintains every repository. The maintainer reviews and merges each pull request, answers issues and vulnerability reports, enforces the code of conduct, and publishes releases. A contributor is anybody who opens an issue or a pull request. The admin account `eng-bq` belongs to the organization, so Brainquiver can merge, triage and release if the maintainer cannot.
 
 ## 2. Decisions
 
-The maintainer decides on each change in its pull request. The discussion of a change stays in its pull request or its issue, where everybody can read it. A question or an idea about one repository goes to that repository's Discussions, and a general one goes to the organisation's [Discussions](https://github.com/orgs/brainquiver/discussions). A repository without Discussions of its own uses the organisation's. A large change starts as an issue, so its direction is agreed before the code exists. A pull request that the maintainer declines is closed with the reason in its thread.
+The maintainer decides on each change in its pull request. The discussion of a change stays in its pull request or its issue, where everybody can read it. A question or an idea about one repository goes to that repository's Discussions, and a general one goes to the organization's [Discussions](https://github.com/orgs/brainquiver/discussions). A repository without Discussions of its own uses the organization's. A large change starts as an issue, so its direction is agreed before the code exists. A pull request that the maintainer declines is closed with the reason in its thread.
 
 ## 3. Change Process
 

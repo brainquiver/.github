@@ -10,7 +10,7 @@ Models are still in development. They will be available in the chat on our websi
 
 ## Datasets
 
-Our public datasets live on [Hugging Face](https://huggingface.co/brainquiver), and the rest are used to train our specialised models. More of them will join the open set over time.
+Our public datasets live on [Hugging Face](https://huggingface.co/brainquiver), and the rest are used to train our specialized models. More of them will join the open set over time.
 
 ### Pretraining
 
@@ -25,7 +25,7 @@ Our public datasets live on [Hugging Face](https://huggingface.co/brainquiver), 
 
 ## Tools
 
-We build our own tools for the work behind the models, with many released as open source under the MIT licence:
+We build our own tools for the work behind the models, with many released as open source under the MIT license:
 
 * [OKF Map](https://github.com/brainquiver/open-knowledge-format-map): Offline map view of the Open Knowledge Format frontmatter and relations in MD documents present in a given directory.
 * [Parquet Viewer](https://github.com/brainquiver/parquet-viewer): Offline single-page viewer for Parquet files and sharded datasets.
@@ -36,6 +36,6 @@ We build our own tools for the work behind the models, with many released as ope
 
 ## MCP Servers
 
-Our MCP servers give AI agents the tools to work inside the services we use every day. They are open source under the MIT licence:
+Our MCP servers give AI agents the tools to work inside the services we use every day. They are open source under the MIT license:
 
 * [Trello MCP](https://github.com/brainquiver/trello-mcp): An MCP server that gives an agent 52 Trello tools, with trimmed replies, duplicate-safe batches, a workspace guard and a reason for every refusal.
