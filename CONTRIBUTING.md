@@ -9,7 +9,7 @@ generated:
   at: 2026-10-01T12:35:31Z
 edited:
   by: claude-code/opus-5.5
-  at: 2026-10-01T16:47:40Z
+  at: 2026-10-12T12:12:34Z
 ---
 
 # Brainquiver Contribution Guide
@@ -42,6 +42,7 @@ Each rule states what a change must meet, and its reason states what goes wrong 
 | Rule | Reason |
 | --- | --- |
 | **Write each commit subject as `type(scope): what applies`, in the imperative and in 72 characters at most.** | A subject such as `fix(attachments): refuse a path outside the root` says what the change does before anybody opens the diff. |
+| **Sign each commit with a GPG, SSH or S/MIME key registered to your GitHub account, so GitHub marks it Verified.** | Git accepts any name and email on a commit. A signature proves that the commit comes from the account named. Check [GitHub's guide](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification) on how to set up commit signing. |
 | **Give each bug fix a test that fails on the old code.** | Only a failure on the old code proves that the fix changed something. |
 | **Add tests for each new feature in the same pull request.** | A test catches the next change that breaks the feature. |
 | **Match the style of the code around the change, and pass the formatter and the linter that the README names.** | With one style, a diff shows only the change. |
