@@ -22,6 +22,7 @@ Our public datasets live on [Hugging Face](https://huggingface.co/brainquiver), 
 ### Post-training
 
 * [reason-qa-biology-finetune-preview](https://huggingface.co/datasets/Brainquiver/reason-qa-biology-finetune-preview): A preview of a larger biology reasoning corpus, generated with gpt-oss-20b in a simple three-field format: about 31,500 examples.
+* [classify-typed-general-finetune-preview](https://huggingface.co/datasets/Brainquiver/classify-typed-general-finetune-preview): A preview of a larger synthetic dataset of typed decisions, where each state from a business workflow, such as an invoice or a support thread, comes with one to eight questions about it: 20,000 samples from 20 workflows.
 
 ## Tools
 
@@ -30,6 +31,7 @@ We build our own tools for the work behind the models, with many released as ope
 * [OKF Map](https://github.com/brainquiver/open-knowledge-format-map): Offline map view of the Open Knowledge Format frontmatter and relations in MD documents present in a given directory.
 * [Parquet Viewer](https://github.com/brainquiver/parquet-viewer): Offline single-page viewer for Parquet files and sharded datasets.
 * [Lightweight Parquet Reader](https://github.com/brainquiver/lightweight-parquet-reader): C99 reader for Parquet string columns, with libzstd as its only dependency.
+* [Pairpack](https://github.com/brainquiver/pairpack): Rust tool that stores a near-copy string column of a parquet shard as character edits of another column, and rebuilds it byte for byte.
 * [S3 Tools](https://github.com/brainquiver/s3-tools): Dependency-free Python tools to list, upload, download and delete objects in S3-compatible stores, such as Cloudflare R2 and Backblaze B2.
 * [JSONL Shuffle](https://github.com/brainquiver/jsonl-shuffle): Rust based JSONL shuffler with multithreading that reproduces Python's random.shuffle order for a given seed.
 * [RP2350 as a Debugger](https://github.com/brainquiver/rp2350-as-debugger): Guide to using an RP2350 board as a CMSIS-DAP SWD probe for other microcontrollers.
