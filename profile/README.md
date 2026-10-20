@@ -21,7 +21,7 @@ Our public datasets live on [Hugging Face](https://huggingface.co/brainquiver), 
 
 ### Post-training
 
-* [reason-qa-biology-finetune-preview](https://huggingface.co/datasets/Brainquiver/reason-qa-biology-finetune-preview): A preview of a larger biology reasoning corpus, generated with gpt-oss-20b in a simple three-field format: about 31,500 examples.
+* [reason-qa-biology-finetune-preview](https://huggingface.co/datasets/Brainquiver/reason-qa-biology-finetune-preview): A preview of a larger biology reasoning corpus, generated with gpt-oss-20b in a simple three-field format: 31,500 examples.
 * [classify-typed-general-finetune-preview](https://huggingface.co/datasets/Brainquiver/classify-typed-general-finetune-preview): A preview of a larger synthetic dataset of typed decisions, where each state from a business workflow, such as an invoice or a support thread, comes with one to eight questions about it: 20,000 samples from 20 workflows.
 
 ## Tools
