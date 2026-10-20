@@ -30,7 +30,7 @@ We build our own tools for the work behind the models, with many released as ope
 * [OKF Map](https://github.com/brainquiver/open-knowledge-format-map): Offline map view of the Open Knowledge Format frontmatter and relations in MD documents present in a given directory.
 * [Parquet Viewer](https://github.com/brainquiver/parquet-viewer): Offline single-page viewer for Parquet files and sharded datasets.
 * [Lightweight Parquet Reader](https://github.com/brainquiver/lightweight-parquet-reader): C99 reader for Parquet string columns, with libzstd as its only dependency.
-* [Cloudflare R2](https://github.com/brainquiver/cloudflare-r2): Dependency-free Python tools to list, upload and delete Cloudflare R2 objects.
+* [S3 Tools](https://github.com/brainquiver/s3-tools): Dependency-free Python tools to list, upload, download and delete objects in S3-compatible stores, such as Cloudflare R2 and Backblaze B2.
 * [JSONL Shuffle](https://github.com/brainquiver/jsonl-shuffle): Rust based JSONL shuffler with multithreading that reproduces Python's random.shuffle order for a given seed.
 * [RP2350 as a Debugger](https://github.com/brainquiver/rp2350-as-debugger): Guide to using an RP2350 board as a CMSIS-DAP SWD probe for other microcontrollers.
 
